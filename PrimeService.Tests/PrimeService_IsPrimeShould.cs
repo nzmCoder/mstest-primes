@@ -64,7 +64,7 @@ namespace Prime.UnitTests.Services
             bool result = primeService.IsPrime(n);
 
             // Show what we did successfully before failure.
-            // If all the tests pass, this does not cause any output!
+            // This output will be in the "additional output" of the test.
             Debug.WriteLine($"Testing {n}");
 
             // Decide the truth of the matter.

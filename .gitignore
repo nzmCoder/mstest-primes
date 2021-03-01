@@ -1,5 +1,7 @@
 obj/
 bin/
 .vs/
-
-
+ref/
+*.dll
+*.exe
+/*.json

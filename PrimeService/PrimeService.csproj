@@ -5,4 +5,8 @@
     <OutputType>Library</OutputType>
   </PropertyGroup>
 
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="xcopy .\$(OutDir)$(ProjectName).dll  $(SolutionDir) /S /Y" />
+  </Target>
+
 </Project>
